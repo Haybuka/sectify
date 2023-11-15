@@ -1,0 +1,14 @@
+
+.home {
+    @apply h-screen bg-no-repeat md:p-10 w-full  ;
+    background-image: url('/map.png');
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.homeDiv{
+    @apply w-full h-screen absolute top-0 left-0 ;
+    background-image: url('/Rectangle.png');
+}
